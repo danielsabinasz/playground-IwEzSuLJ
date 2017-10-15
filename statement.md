@@ -11,12 +11,12 @@ We shall start by defining the concept of a computational graph, since neural ne
 
 The values that are fed into the nodes and come out of the nodes are called <b>tensors</b>, which is just a fancy word for a multi-dimensional array. Hence, it subsumes scalars, vectors and matrices as well as tensors of a higher rank.
 
-Let's look at an example. The following computational graph computes the sum $z$ of two inputs $x$ and $y$. 
-Here, $`x`$ and $y$ are input nodes to $`z`$ and $`z`$ is a consumer of $x$ and $y$. $z$ therefore defines a function $z : \mathbb{R^2} \rightarrow \mathbb{R}$ where $z(x, y) = x + y$.
+Let's look at an example. The following computational graph computes the sum $`z`$ of two inputs $`x`$ and $`y`$. 
+Here, $`x`$ and $`y`$ are input nodes to $`z`$ and $`z`$ is a consumer of $`x`$ and $`y`$. $`z`$ therefore defines a function $`z : \mathbb{R^2} \rightarrow \mathbb{R}`$ where $`z(x, y) = x + y`$.
 
 <img src="addition.png?456" style="height: 200px;">
 
-The concept of a computational graph becomes more useful once the computations become more complex. For example, the following computational graph defines an affine transformation $z(A, x, b) = Ax + b$.
+The concept of a computational graph becomes more useful once the computations become more complex. For example, the following computational graph defines an affine transformation $`z(A, x, b) = Ax + b`$.
 
 <img src="affine_transformation.png" style="height: 200px;">
 
