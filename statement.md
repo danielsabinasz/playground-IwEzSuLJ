@@ -29,7 +29,7 @@ Every operation is characterized by three things:
 
 Let's put this into code:
 
-```
+```python runnable
 class Operation:
     """Represents a graph node that performs a computation.
     
