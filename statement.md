@@ -64,12 +64,10 @@ class Operation:
 
 Let's implement some elementary operations in order to become familiar with the `Operation` class (and because we will need them later).
 
-@[Some elementary operations](
-{
+@[Some elementary operations]({
   "stubs": ["tensorslow.py"],
-  "command": "python3 tensorslow.py",
-}
-)
+  "command": "python3 tensorslow.py"
+})
 
 
 ```python runnable
